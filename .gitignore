@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode or other editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables and settings
+.env
+.env.*
+
+# Python dependency files
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Testing and coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyright
+pyrightconfig.json
+
+# Unit test & local databases
+instance/
+.webassets-cache
+*.db
+*.sqlite3
+
+# Docker
+**/__pycache__/
+Dockerfile
+*.pid
+
+# FastAPI specific (if you're using Uvicorn logs etc.)
+*.log
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints
+
+# MacOS and Windows system files
+.DS_Store
+Thumbs.db
